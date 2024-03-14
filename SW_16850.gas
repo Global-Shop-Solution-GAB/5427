@@ -1,0 +1,19 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000125.set("Nombre 1")
+Variable.passed.000124.set("Nombre 2")
+Variable.passed.000123.set("Nombre 3")
+Variable.passed.000122.set("Calle / No.")
+Variable.passed.000121.set("Colonia")
+Variable.passed.000120.set("Ciudad / Estado")
+Variable.passed.000119.set("Codigo Postal")
+Variable.passed.000118.set("Pais / No Int.")
+Variable.passed.000117.set("Atencion")
+Program.Sub.Main.end
