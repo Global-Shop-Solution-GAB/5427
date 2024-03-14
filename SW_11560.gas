@@ -1,0 +1,43 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000138.set("Nombre 1")
+Variable.passed.000137.set("Nombre 2")
+Variable.passed.000136.set("Nombre 3")
+Variable.passed.000135.set("Calle / No.")
+Variable.passed.000134.set("Colonia")
+Variable.passed.000133.set("Ciudad y Estado")
+Variable.passed.000132.set("Codigo Postal")
+Variable.passed.000131.set("Pais / No. Int")
+Variable.passed.000130.set("RFC / Atencion a:")
+Function.Intrinsic.Variable.SetProperty("000024","FC",0)
+Function.Intrinsic.Variable.SetProperty("000024","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000025","FC",0)
+Function.Intrinsic.Variable.SetProperty("000025","BC",65535)
+Variable.passed.000032.set("Guardar ")
+Function.Intrinsic.Variable.SetProperty("000032","FC",0)
+Function.Intrinsic.Variable.SetProperty("000032","BC",65535)
+Variable.passed.000036.set("Líneas  ")
+Function.Intrinsic.Variable.SetProperty("000036","FC",0)
+Function.Intrinsic.Variable.SetProperty("000036","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000023","FC",0)
+Function.Intrinsic.Variable.SetProperty("000023","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000003","FC",0)
+Function.Intrinsic.Variable.SetProperty("000003","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000006","FC",0)
+Function.Intrinsic.Variable.SetProperty("000006","BC",65535)
+Variable.passed.000143.set("Catálogo Moneda ")
+Function.Intrinsic.Variable.SetProperty("000143","FC",0)
+Function.Intrinsic.Variable.SetProperty("000143","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000086","FC",0)
+Function.Intrinsic.Variable.SetProperty("000086","BC",65535)
+Variable.passed.000152.set("Nacional MX")
+Function.Intrinsic.Variable.SetProperty("000152","FC",0)
+Function.Intrinsic.Variable.SetProperty("000152","BC",65535)
+Program.Sub.Main.end
